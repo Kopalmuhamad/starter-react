@@ -1,3 +1,5 @@
+@import "./utils/global.scss";
+
 * {
   margin: 0;
   padding: 0;
@@ -6,5 +8,14 @@
 
 body {
   max-width: 100%;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: $font-subtitle;
+
+  &.dark-mode {
+    background-color: $bg-dark-100;
+  }
+}
+
+.portfolio {
+  width: 100%;
+  height: 100vh;
 }

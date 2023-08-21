@@ -1,0 +1,15 @@
+.about-container {
+    width: 100%;
+
+    .box-image {
+        width: calc(100%/2);
+
+        img {
+            width: 350px;
+        }
+    }
+
+    .content {
+        width: calc(100%/2);
+    }
+}
